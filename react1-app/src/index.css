@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+
+*{
+  margin: 0;
+  font-family: "Quicksand";
+  color:rgb(52, 14, 14);
+}
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(242, 219, 238);
+}
+.navbar h1{
+  color: brown;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: chocolate;
+}
+.content{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog previews*/
+.blog-preview{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid rgb(224, 229, 216);
+}
+.blog-preview:hover{
+  box-shadow: 1px 3px 5px rgb(30, 28, 28);
+}
+.blog-preview h2{
+  font-size: 20px;
+  color: rgb(206, 98, 98);
+}
+.blog-preview a{
+  text-decoration: none;
+}
+
+/* blog details page */
+.blog-details h2{
+  font-size: 20px;
+  color: brown;
+  margin-bottom: 10px;
+}
+.blog-details div{
+  margin: 20px 0;
+}
+.blog-details button{
+  background: brown;
+  color: beige;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create a new blog form */
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label{
+  text-align: left;
+  display: block;
+}
+.create h2{
+  font-size: 20px;
+  color: brown;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid beige;
+  box-sizing: border-box;
+  display: block;
+}
+.create button{
+  background: brown;
+  color: beige;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
